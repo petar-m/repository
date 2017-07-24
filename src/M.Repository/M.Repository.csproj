@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>Petar Marinov</Authors>
+    <Company>Petar Marinov</Company>
+    <Description>An abstraction for Repository pattern based on IQueryable.</Description>
+    <Copyright>Copyright (c) 2017 Petar Marinov</Copyright>
+    <PackageLicenseUrl>https://github.com/petar-m/repository/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/petar-m/repository</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/petar-m/repository</RepositoryUrl>
+    <PackageTags>repository abstraction</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
+  </ItemGroup>
+  
+</Project>
